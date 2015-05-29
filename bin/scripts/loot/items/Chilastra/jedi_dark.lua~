@@ -1,0 +1,20 @@
+jedi_dark = {
+ -- Cloak
+    minimumLevel = 0,
+    maximumLevel = -1,
+    customObjectName = "Robe of the Dark Side",
+    directObjectTemplate = "object/tangible/wearables/robe/robe_jedi_dark_s04.iff",
+    craftingValues = {},
+    skillMods = { {"jedi_force_power_max", 750},
+                  {"jedi_force_power_regen", 50}
+},
+    customizationOptions = {2, 1},
+    customizationStringNames = {"/private/index_color_1", "/private/index_color_2"},
+    customizationDefaults = {158, 225},
+
+    junkDealerTypeNeeded = JUNKCLOTHESANDJEWELLERY,
+    junkMinValue = 900,
+    junkMaxValue = 900
+}
+
+addLootItemTemplate("jedi_dark", jedi_dark)

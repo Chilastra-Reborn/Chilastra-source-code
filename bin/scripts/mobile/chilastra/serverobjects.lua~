@@ -1,0 +1,6 @@
+includeFile("chilastra/bewchakka.lua")
+includeFile("chilastra/zovo.lua")
+includeFile("chilastra/taris.lua")
+includeFile("chilastra/shakiki.lua")
+includeFile("chilastra/marco.lua")
+includeFile("chilastra/jack.lua")

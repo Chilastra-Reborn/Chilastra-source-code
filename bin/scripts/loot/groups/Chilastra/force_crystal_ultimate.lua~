@@ -1,0 +1,10 @@
+force_crystal_ultimate = {
+	description = "",
+	minimumLevel = 0,
+	maximumLevel = 0,	
+	lootItems = {	
+		{itemTemplate = "force_crystal_ultimate", weight = 10000000}	
+	}
+}
+
+addLootGroupTemplate("force_crystal_ultimate", force_crystal_utlimate)
